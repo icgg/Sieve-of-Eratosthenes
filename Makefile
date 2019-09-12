@@ -3,9 +3,3 @@ sieve:
 
 clean:
 	rm -rf *.o sieve
-
-queen:
-	mpicc queen.c -o queenpb
-
-cleanq:
-	rm -rf *.o queenpb
